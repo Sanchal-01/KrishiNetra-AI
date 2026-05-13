@@ -1,0 +1,5 @@
+krishi_env/
+__pycache__/
+*.pyc
+*.h5
+.ipynb_checkpoints/
