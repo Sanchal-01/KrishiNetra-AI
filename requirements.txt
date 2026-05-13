@@ -1,0 +1,12 @@
+This file contains all Python libraries your project needs.
+
+# Till now we have decided to included these libraries in the project:
+
+tensorflow
+numpy
+pandas
+matplotlib
+opencv-python
+streamlit
+pillow
+scikit-learn
