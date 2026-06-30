@@ -30,8 +30,8 @@ train_generator = train_datagen.flow_from_directory(
 # SECTION 4: VALIDATION GENERATOR
 val_generator = val_datagen.flow_from_directory(
     '02_dataset/02_validate',
-    target_size=(180,180),
-    batch_size=10,
+    target_size=(150,150),
+    batch_size=8,
     class_mode='categorical',
 
 )
@@ -44,7 +44,7 @@ model = models.Sequential()
 #-----------------------------------------------------------------------------------------------------------------------#
 
 # C1: Convolution
-model.add(layers.Conv2D(filters=32, kernel_size=(3,3), activation='relu', input_shape=(180,180,3)))  
+model.add(layers.Conv2D(filters=32, kernel_size=(3,3), activation='relu', input_shape=(150,150,3)))  
 
 # C2: Convolution
 model.add(layers.Conv2D(filters=32, kernel_size=(3,3), activation='relu'))  
