@@ -88,7 +88,7 @@ if uploaded_file is not None:
                 model = load_expert_model(model_path)
                 
                 # Preprocessing pipeline: Convert to RGB to drop Alpha/transparency channels
-                image_rgb = image.convert('RGB')
+                image_rgb = image_to_predict.convert("RGB")
                 
                 # Resize image to match the target input dimensions expected by the CNN
                 img = image_rgb.resize((224, 224))
