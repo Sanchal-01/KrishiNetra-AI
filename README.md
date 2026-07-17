@@ -15,7 +15,7 @@ Modern precision agriculture demands fast, accurate, and scalable disease identi
 
 **KrishiNetra-AI** solves this fundamental bottleneck by introducing a **modular multi-model execution pipeline**. Developed through a structured two-developer collaborative workflow, the system segregates diagnostics into **five independent crop domains — Apple, Grapes, Tomato, Corn, and Potato**. Each crop features its own standalone neural network optimized specifically for its distinct botanical pathologies. By eliminating cross-crop feature contamination and employing a gradual feature-reduction layer, the individual models retain high fine-grained feature sensitivity, resulting in exceptionally stable, production-ready inference — with every one of the five models achieving **90%+ test accuracy**, and four of the five crossing **98%**.
 
-The link to access the complete dataset :
+The link to access the complete dataset : https://www.kaggle.com/datasets/shreyashkumarsah/krishinetra-ai
 
 ---
 
