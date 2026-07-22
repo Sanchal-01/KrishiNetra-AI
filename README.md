@@ -351,7 +351,7 @@ Every model was evaluated independently on a held-out test set. Below is the con
 ## 7. Repository Directory Structure
 
 ```
-Streamlit-KrishiNetra/
+KrishiNetra-AI/
 │
 ├── 01_app/
 │   └── app1.py                          # Streamlit interface — dynamically routes and loads the correct crop model
@@ -414,8 +414,8 @@ Streamlit-KrishiNetra/
 
 **1. Clone the Repository**
 ```bash
-git clone https://github.com/Shreyash71-byte/Streamlit-KrishiNetra.git
-cd Streamlit-KrishiNetra
+git clone https://github.com/Sanchal-01/KrishiNetra-AI.git
+cd KrishiNetra-AI
 ```
 
 **2. Configure Your Isolated Python Environment**
